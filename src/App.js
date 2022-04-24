@@ -10,12 +10,11 @@ const App = () => {
         <NavBar />
 
         <Switch>
-          <Route exact path={`${STARED_REPOS_SCREEN}`}>
-            <StaredReposScreen />
-          </Route>
-
           <Route exact path={`${HOME_SCREEN}`}>
             <HomeScreen />
+          </Route>
+          <Route exact path={`${STARED_REPOS_SCREEN}`}>
+            <StaredReposScreen />
           </Route>
         </Switch>
       </div>
